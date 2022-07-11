@@ -128,8 +128,8 @@ export const EXPECTED_HASHES: Record<string, string> = {
     'abbb5293109726354cfb832436ebf4bd708ee3e14235bcd8e1bda7f6fc8354d0',
   'node-v14.19.2-win-arm64':
     '101ff4befbd9bee4fd937a4436dfccafb60c8c62c14b88580450deba1a036359',
-  'node-v14.19.2-win-x64':
-    'b18e4954fbd986472c2a1e47ba416fd8a2db47166cb482e5b08254abed03a499',
+  'node-v14.20.0-win-x64':
+    '89b6695ebfdd1c309605818b16ea004a69afbb90d455d8e09170be3998fd4fb9',
   'node-v18.1.0-alpine-x64':
     '24d51e141a8240185705261942389cc358d7a28baa9b99585d2776447201c0a0',
   'node-v18.1.0-linux-x64':
