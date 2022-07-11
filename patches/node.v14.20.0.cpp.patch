@@ -134,10 +134,6 @@
 +    base::OS::PrintError("Pkg: VERSION_MISMATCH\n");
 +    return VERSION_MISMATCH;
 +  }
-+  if (flags_hash != FlagList::Hash()) {
-+    // base::OS::PrintError("Pkg: FLAGS_MISMATCH\n");
-+    return FLAGS_MISMATCH;
-+  }
    uint32_t max_payload_length =
        this->size_ -
        POINTER_SIZE_ALIGN(kHeaderSize +
