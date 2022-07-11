@@ -56,7 +56,7 @@ function getConfigureArgs(major: number, targetPlatform: string): string[] {
   }
 
   // production binaries do NOT take NODE_OPTIONS from end-users
-  args.push('--without-node-options');
+  // args.push('--without-node-options');
 
   // DTrace
   args.push('--without-dtrace');
